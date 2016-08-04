@@ -100,6 +100,7 @@ CREATE TABLE cats (
 id INTEGER PRIMARY KEY,
 name TEXT,
 age INTEGER,
+owner_id INTEGER,
 breed TEXT
 );
 ```
@@ -331,3 +332,5 @@ Maru
 ```
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/sql-join-tables-readme'>SQL Join Tables</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/sql-join-tables-readme'>SQL Join Tables</a> on Learn.co and start learning to code for free.</p>
