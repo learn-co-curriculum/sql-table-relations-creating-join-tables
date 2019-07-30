@@ -139,10 +139,14 @@ owner_id INTEGER
 );
 ```
 
-Let's confirm that worked by checking our schema:
+Let's confirm that worked by checking our schema. Type:
 
 ```sql
 sqlite3> .schema
+
+And you'll see:
+
+```sql
 CREATE TABLE cats (
 id INTEGER PRIMARY KEY, 
 name TEXT, 
